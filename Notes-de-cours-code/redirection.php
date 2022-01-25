@@ -2,6 +2,8 @@
 // dans l'entete de la reponse je te force a aller au site
     header("location:http://perdu.com");
     exit;
+    // si on ne mets pas exit le php renv le nag ailleur mais continue
+    // avec le exit ca lui dit il a ete env ailleur on arrete tt y a pas de sens que ca continue
 ?>
 <!DOCTYPE html>
 <html lang="en">
