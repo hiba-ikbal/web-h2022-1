@@ -30,9 +30,7 @@
             // ss empty on aur des notices psq la personne a rien ecrit 
             //  pour plus de secu on divise l'affichage et le reste pas dns la mm place :
             // cei devient:
-            if($showbox){
-
-            
+            if($showbox){          
             
             ?>
             <div style="color:green;">
