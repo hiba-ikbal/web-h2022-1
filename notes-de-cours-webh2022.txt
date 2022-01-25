@@ -1,0 +1,13 @@
+* Apache -> serveur le plus utilisé (permet d'analyser + traiter)
+* Angenx -> assez utilisé mais moins de doc 
+* AAS -> version microsoft
+* * * * * * * * * * * * Pour communiquer avec apache c'est des requettes
+( on lui pache des modules par lesquels ils passent avant d'interpretter et boster ce qu'on veut)
+- PHP donc est un module ^^
+- Chaque fichier de php correspond a ce qu'on veut faire?
+- Inddex est n welcome file ( par defaut qd on me demande rien) 
+- l'ordi ft une requette au serveur -> serveur ft requette a la bd -> les resultats sont renv 
+- Plus secu psq les demandes sont traité aucun lien de l'internet avec les données 
+( pour pas avoir la facilité de le changer avc la console)
+- Ca se ft en deux temps mm si c'est sur la mm machine.
+- 
