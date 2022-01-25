@@ -2,12 +2,30 @@
 * Angenx -> assez utilisé mais moins de doc 
 * AAS -> version microsoft
 * * * * * * * * * * * * Pour communiquer avec apache c'est des requettes
-( on lui pache des modules par lesquels ils passent avant d'interpretter et boster ce qu'on veut)
+    ( on lui pache des modules par lesquels ils passent avant d'interpretter et boster ce qu'on veut)
 - PHP donc est un module ^^
 - Chaque fichier de php correspond a ce qu'on veut faire?
 - Inddex est n welcome file ( par defaut qd on me demande rien) 
-- l'ordi ft une requette au serveur -> serveur ft requette a la bd -> les resultats sont renv 
+- L'ordi ft une requette au serveur -> serveur ft requette a la bd -> les resultats sont renv 
 - Plus secu psq les demandes sont traité aucun lien de l'internet avec les données 
-( pour pas avoir la facilité de le changer avc la console)
+    (pour pas avoir la facilité de le changer avc la console)
 - Ca se ft en deux temps mm si c'est sur la mm machine.
-- 
+- Histoire de git et linux??
+- Au lieu de faire un drug and drop et demander d'avoir le fichier, on demande a apache de le faire
+
+! Localhost c est apl soi-mm? 
+
+- Le port du web est tjrs le port 80 aka protocol http
+- Qd on est en http 80 https 443
+- On peut mettre apache sur 443 mais il ft un certificat ssl
+
+! Fonctionnement de Localhost
+
+- On est tt le temps entrain de faire la boucle ordi-serveur-bd
+
+! Stress tester un site web 
+
+?? ce qui va le plus tuer un serveur c'est 
+
+- qd on veut faire du php checker le fichier variable
+- On ne peut pas faire des sleep ou autre + php osq pas la mm place
